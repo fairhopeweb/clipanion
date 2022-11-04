@@ -955,7 +955,7 @@ export class CommandBuilder<Context> {
   }
 
   private registerOptions(machine: StateMachine, node: number) {
-    registerDynamic(machine, node, [`isOption`, `--`], node, `inhibateOptions`);
+    registerDynamic(machine, node, [`isOption`, `--`], node, `pushExtraNoLimits`);
     registerDynamic(machine, node, [`isBatchOption`, this.allOptionNames], node, `pushBatch`);
     registerDynamic(machine, node, [`isBoundOption`, this.allOptionNames, this.options], node, `pushBound`);
     registerDynamic(machine, node, [`isUnsupportedOption`, this.allOptionNames], NODE_ERRORED, [`setError`, `Unsupported option name`]);
