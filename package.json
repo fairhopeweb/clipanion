@@ -1,5 +1,5 @@
 {
-  "name": "clipanion",
+  "name": "@blitz/clipanion",
   "description": "Type-safe CLI library / framework with no runtime dependencies",
   "homepage": "https://mael.dev/clipanion/",
   "keywords": [
