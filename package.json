@@ -12,8 +12,8 @@
     "option",
     "command"
   ],
-  "version": "3.2.0-rc.13",
-  "main": "sources/advanced/index.ts",
+  "version": "3.2.0-rc.14",
+  "main": "lib/advanced/index",
   "license": "MIT",
   "sideEffects": false,
   "repository": {
@@ -57,9 +57,6 @@
     "test": "FORCE_COLOR=1 mocha --require ts-node/register --extension ts tests/specs",
     "lint": "eslint --max-warnings 0 .",
     "demo": "node --require ts-node/register demos/advanced.ts"
-  },
-  "publishConfig": {
-    "main": "lib/advanced/index"
   },
   "files": [
     "lib"
