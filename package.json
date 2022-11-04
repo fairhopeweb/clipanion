@@ -20,9 +20,6 @@
     "url": "https://github.com/arcanis/clipanion",
     "type": "git"
   },
-  "workspaces": [
-    "website"
-  ],
   "dependencies": {
     "typanion": "^3.8.0"
   },
@@ -39,9 +36,6 @@
     "@types/node": "^14.0.13",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
-    "@yarnpkg/core": "^2.3.1",
-    "@yarnpkg/eslint-config": "yarnpkg/berry#workspace=@yarnpkg/eslint-config",
-    "@yarnpkg/fslib": "^2.3.0",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "eslint": "^7.16.0",
